@@ -46,7 +46,7 @@
 
 ; my $ap9 = Test8->new( cgi => CGI->new({ p => 'redirect' }) )
 ; my $o9 = $ap9->capture('process')
-; ok(  ($$o9 =~ /302 Moved/)
+; ok(  ($$o9 =~ /302 Found/)
     && ($$o9 !~ /never printed/)
     && ($$o9 !~ /fixup/)
     && ($$o9 !~ /madness/)
